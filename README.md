@@ -1,17 +1,20 @@
 # Fluid catalytic cracking unit dataset for evaluation of process monitoring techniques
 
 ## What the repository is about?
-This repository provides data from fault-free and faulty operations of a fluid catalytic cracking unit. The open source model provided by Santander et al. (https://doi.org/10.1016/j.compchemeng.2022.107900) has been used for simulation; the model's github repository is [here](https://github.com/Baldea-Group/FCC-Fractionator). The PDStoolkit (Process Data Science Toolkit) package has been created to provide easy-to-use modules to help quickly build data-based solutions for process systems such as those for process monitoring, modeling, fault diagnosis, system identification, etc. Current modules in the package are wrappers around pre-existing Sklearn's classes and provide several additional methods to facilitate a process data scientist's job. Details on these are provided in the following section. More modules relevant for process data science will be added over time.
+This repository provides data from fault-free and faulty operations of a fluid catalytic cracking unit (FCCU). The open source model provided by Santander et al. (https://doi.org/10.1016/j.compchemeng.2022.107900) has been used for simulation; the model's github repository is [here](https://github.com/Baldea-Group/FCC-Fractionator). FCCUs are critical units in oil refineries and are used for breaking heavy hydrocarbons into lighter gasoline, LPG, etc. It is a complex process and therefore, a worthy candidate to experiment with the different fault detectiona and diagnosis (FDD) techniques out there. The picture below shows the five faulty conditions that have been simulated.
 
 ![](/Faults_PFD.png)
 
 ## Some details on the repository files
-The
+In this repository there are three categories of files.
+- CSV files: 2 files containign data from normal operation conditions (NOCs) and 5 files containing data from faulty conditions
+- Data exploration notebooks: These notebooks provide quick look into the data from the five faulty conditions. Relevant variables that are expected to show deviations under the imapct of the corresponding faults have been plotted.
+- FDD implementation notebooks: These notebooks provide quick implementation of classical PCA for each of the five faulty conditions.
 
 ## Where to find more details?
-The
+Complete details on the FCCU system, measured signals, and the simulated faults are available at https://mlforpse.com/. 
 
--- 3 types of files: data csvs, daatexplore, FDD PCA
--- refer to baldea paper and model github
--- refer to out blog for details
--- put that fault PFD figure
+
+
+
+
