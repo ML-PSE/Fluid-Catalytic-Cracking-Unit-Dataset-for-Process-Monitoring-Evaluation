@@ -8,8 +8,8 @@ This repository provides data from fault-free and faulty operations of a fluid c
 ## Some details on the repository files
 In this repository there are three categories of files.
 - <ins>*CSV files*</ins>: 2 files containign data from normal operation conditions (NOCs) and 5 files containing data from faulty conditions
-- *Data exploration notebooks*: These notebooks provide quick look into the data from the five faulty conditions. Relevant variables that are expected to show deviations under the imapct of the corresponding faults have been plotted.
-- *FDD implementation notebooks*: These notebooks provide quick implementation of classical PCA for each of the five faulty conditions.
+- <ins>*Data exploration notebooks*</ins>: These notebooks provide quick look into the data from the five faulty conditions. Relevant variables that are expected to show deviations under the imapct of the corresponding faults have been plotted.
+- <ins>*FDD implementation notebooks*</ins>: These notebooks provide quick implementation of classical PCA for each of the five faulty conditions.
 
 ## Where to find more details?
 Complete details on the FCCU system, measured signals, CSV file contents, and the simulated faults are available at https://mlforpse.com/. 
