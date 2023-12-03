@@ -12,7 +12,7 @@ In this repository there are three categories of files.
 - <ins>*FDD implementation notebooks*</ins>: These notebooks provide quick implementation of classical PCA for each of the five faulty conditions.
 
 ## Where to find more details?
-Complete details on the FCCU system, measured signals, CSV file contents, and the simulated faults are available at https://mlforpse.com/fccudataset. 
+Complete details on the FCCU system, measured signals, CSV file contents, and the simulated faults are available at https://mlforpse.com/fccu-dataset. 
 
 
 
